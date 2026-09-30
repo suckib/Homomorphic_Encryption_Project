@@ -63,17 +63,17 @@ with col_summary:
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown("""
-    <div class="he-card">
-        <h4 style="color: #d29922; margin-top: 0;">Implementation Stack</h4>
-        <ul style="font-size: 0.85rem; color: #c9d1d9; padding-left: 20px; line-height: 1.6;">
-            <li>Python 3.10+</li>
-            <li><code>python-paillier</code> (production PHE engine)</li>
-            <li>Custom step-by-step arithmetic module for symbolic tracing</li>
-            <li>Streamlit web interface</li>
-        </ul>
-    </div>
-    """, unsafe_allow_html=True)
+    # st.markdown("""
+    # <div class="he-card">
+    #     <h4 style="color: #d29922; margin-top: 0;">Implementation Stack</h4>
+    #     <ul style="font-size: 0.85rem; color: #c9d1d9; padding-left: 20px; line-height: 1.6;">
+    #         <li>Python 3.10+</li>
+    #         <li><code>python-paillier</code> (production PHE engine)</li>
+    #         <li>Custom step-by-step arithmetic module for symbolic tracing</li>
+    #         <li>Streamlit web interface</li>
+    #     </ul>
+    # </div>
+    # """, unsafe_allow_html=True)
 
 st.markdown("---")
 st.markdown(

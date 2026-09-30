@@ -211,11 +211,11 @@ if "fl_history" in st.session_state:
     | **Client Gradient Secrecy** | <span style="color: #f85149;">Vulnerable to Inversion</span> | <span style="color: #3fb950;">IND-CPA Computationally Secure</span> | Unconditional against curious server |
     """)
 
-st.markdown("---")
-st.markdown("### Academic References")
-st.markdown("""
-- **McMahan, B., Moore, E., Ramage, D., Hampson, S., & y Arcas, B. A. (2017).** *Communication-Efficient Learning of Deep Networks from Decentralized Data.* AISTATS 2017.
-- **Bonawitz, K., et al. (2017).** *Practical Secure Aggregation for Privacy-Preserving Machine Learning.* ACM CCS 2017.
-- **Phong, L. T., Aono, Y., Hayashi, T., Wang, L., & Moriai, S. (2018).** *Privacy-Preserving Deep Learning via Additively Homomorphic Encryption.* IEEE Transactions on Information Forensics and Security (TIFS).
-- **Zhu, L., Liu, Z., & Han, S. (2019).** *Deep Leakage from Gradients.* NeurIPS 2019.
-""")
+# st.markdown("---")
+# st.markdown("### Academic References")
+# st.markdown("""
+# - **McMahan, B., Moore, E., Ramage, D., Hampson, S., & y Arcas, B. A. (2017).** *Communication-Efficient Learning of Deep Networks from Decentralized Data.* AISTATS 2017.
+# - **Bonawitz, K., et al. (2017).** *Practical Secure Aggregation for Privacy-Preserving Machine Learning.* ACM CCS 2017.
+# - **Phong, L. T., Aono, Y., Hayashi, T., Wang, L., & Moriai, S. (2018).** *Privacy-Preserving Deep Learning via Additively Homomorphic Encryption.* IEEE Transactions on Information Forensics and Security (TIFS).
+# - **Zhu, L., Liu, Z., & Han, S. (2019).** *Deep Leakage from Gradients.* NeurIPS 2019.
+# """)
