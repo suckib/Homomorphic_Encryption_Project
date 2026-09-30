@@ -35,6 +35,13 @@ The project is structured into four functional modules:
    - Mathematical proof of Paillier additive homomorphism.
    - Applications in electronic voting, AML compliance, and private inference.
 
+5. **Secure Federated Learning (`pages/5_Federated_Learning.py`):**
+   - Collaborative multi-hospital diagnostic classification (Wisconsin Diagnostic Breast Cancer).
+   - Simulates 3 hospital cohorts training local logistic classifiers under IID and non-IID conditions.
+   - Server executes encrypted FedAvg parameter aggregation: $\text{Enc}(W_{\text{global}}) = \sum_{k} \frac{n_k}{N} \text{Enc}(W^{(k)})$.
+   - Prevents gradient leakage and data reconstruction attacks against honest-but-curious aggregators.
+   - Includes empirical comparison against isolated local baselines and theoretical centralized bounds.
+
 ---
 
 ## Installation & Usage
@@ -63,6 +70,8 @@ The application will be accessible at `http://localhost:8501`.
 
 - **`streamlit`** — Interactive web interface
 - **`phe` (`python-paillier`)** — Optimized Paillier cryptosystem engine (Data61 / CSIRO)
+- **`numpy`** — Vectorized matrix operations and model gradient calculations
+- **`scikit-learn`** — Clinical dataset loader, preprocessing, and validation metrics
 
 ---
 

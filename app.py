@@ -46,6 +46,7 @@ with col_main:
     - **Salary Demo** (`pages/2_Salary_Aggregation.py`): A multi-party aggregation simulation where employees encrypt their compensation locally and an untrusted aggregator computes sum and mean without learning individual values.
     - **Under The Hood** (`pages/3_Cryptographic_Trace.py`): Detailed step-by-step trace of Paillier key generation, randomized encryption, and ciphertext multiplication using human-verifiable small moduli.
     - **Learn HE** (`pages/4_Theory_and_Foundations.py`): Theoretical taxonomy (PHE vs. SHE vs. FHE), mathematical proofs, security assumptions, and knowledge verification.
+    - **Federated Learning** (`pages/5_Federated_Learning.py`): Multi-institutional clinical ML simulation (FedAvg) where hospital model updates are aggregated under Paillier encryption to prevent gradient inversion attacks.
     """)
 
 with col_summary:
