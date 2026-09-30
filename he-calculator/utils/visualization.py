@@ -92,6 +92,32 @@ def get_custom_css() -> str:
             border-radius: 6px;
             padding: 10px;
         }
+
+        /* Suppress default Streamlit page footer */
+        footer {
+            display: none !important;
+            visibility: hidden !important;
+        }
+
+        /* Suppress 'Made with Streamlit' branding in menu and popovers */
+        [data-testid="stMainMenuPopover"] div:has(a[href*="streamlit.io"]),
+        [data-testid="stMainMenuPopover"] hr:last-of-type,
+        div[role="dialog"] div:has(a[href*="streamlit.io"]),
+        div[role="dialog"] hr:last-of-type,
+        a[href*="streamlit.io"],
+        div:has(> a[href*="streamlit.io"]),
+        span:has(> a[href*="streamlit.io"]) {
+            display: none !important;
+            visibility: hidden !important;
+        }
+
+        /* Suppress Deploy button in header */
+        [data-testid="stToolbarActions"],
+        .stDeployButton,
+        [data-testid="stDeployButton"] {
+            display: none !important;
+            visibility: hidden !important;
+        }
     </style>
     """
 
