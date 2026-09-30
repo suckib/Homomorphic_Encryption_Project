@@ -4,6 +4,8 @@ An interactive dashboard and reference implementation exploring the mechanics, a
 
 Built for privacy-preserving computation research and educational demonstration.
 
+**Live Deployment:** [https://homomorphic-encryption-calculator.streamlit.app/](https://homomorphic-encryption-calculator.streamlit.app/)
+
 ---
 
 ## Architecture & Features
